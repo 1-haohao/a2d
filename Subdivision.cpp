@@ -12,7 +12,7 @@ Subdivision::Subdivision(){
 Subdivision::Subdivision(std::string subName, int size){
      size1=size;
      name1=subName;
-      lift=new House[size1];
+      lift=new House[size];
 }  // constructor with given subdivision size and 
                                              // subdivision name
 
@@ -33,7 +33,7 @@ House * Subdivision::get_houses(){
 // otherwise returns false
 bool Subdivision:: add_house(House new_house){
     
-    if(count<= size1){
+    if(count >= size1){
     lift[count]=new_house;
     count++;
         return true;

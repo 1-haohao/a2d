@@ -1,8 +1,10 @@
+#ifndef HOUSE.H
+#define HOUSE.H
+
 #include <string>
 #include <iostream>
 #include <ostream>
-#ifndef HOUSE.H
-#define HOUSE.H
+
 using namespace std;
 class House{
 public:

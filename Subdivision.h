@@ -1,8 +1,9 @@
+#ifndef SUB.H
+#define SUB.H
 #include <string>
 #include <iostream>
 #include <ostream>
-#ifndef SUB.H
-#define SUB.H
+
 using namespace std;
 #include "House.h"
 class Subdivision{
